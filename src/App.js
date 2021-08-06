@@ -31,7 +31,7 @@ function App() {
       setList(incomingData.data)
       // console.log(List);
     })
-  }, []);
+  }, [List]);
 
 
   return (
