@@ -23,7 +23,7 @@ function App() {
     axios.get(`https://sheet.best/api/sheets/dd480f0f-16b9-40b1-ba7f-348b31058d71`)
     .then((incomingData) => {
       setList(incomingData.data)
-      console.log(List);
+      // console.log(List);
     })
   }, []);
 
@@ -31,16 +31,16 @@ function App() {
   return (
     <div className="App">
       <h1 className="Main" style={{color: "white", margin:"auto", marginLeft:"43.5%", marginTop:"50px" }}>Uni Connect</h1>
-      <span className="desc" style={{color: "white"}}>This is a open blog/confession posts site. Here you can post anything and it will be visible to anyone and also you donot need any account creation with this.</span>
+      <span className="desc" style={{color: "white"}}>This is a open blog/confession posts site. Here you can post anything and it will be visible to anyone and also you donot need any account creation for this.</span>
       <div className="Create_Post">
         <h1>Create Post</h1>
         <form>
           <label htmlFor="Name">Name </label>
-          <input type="text" id="Name" name="Name" placeholder={name} onChange={e => setName(e.target.value)}/><br />
+          <input type="text" id="Name" name="Name" placeholder={name} onChange={e => setName(e.target.value)} required/><br />
           <label htmlFor="Heading">Heading</label>
-          <input type="text" id="Heading" name="Heading" placeholder={heading} onChange={e => setHeading(e.target.value)}/><br />
+          <input type="text" id="Heading" name="Heading" placeholder={heading} onChange={e => setHeading(e.target.value)} required/><br />
           <label htmlFor="Message">Message</label><br />
-          <textarea style={{width: "80%",height:"150px"}} id="Message" name="Message" placeholder={message} onChange={e => setMessage(e.target.value)}/><br />
+          <textarea style={{width: "80%",height:"150px"}} id="Message" name="Message" placeholder={message} onChange={e => setMessage(e.target.value)} required/><br />
           <button type="submit" onClick={handleSubmit}>Submit</button>
         </form>
       </div>
