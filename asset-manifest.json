@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Uni-Connect/static/css/main.3cdef3df.chunk.css",
-    "main.js": "/Uni-Connect/static/js/main.eb132ab5.chunk.js",
-    "main.js.map": "/Uni-Connect/static/js/main.eb132ab5.chunk.js.map",
+    "main.js": "/Uni-Connect/static/js/main.c5659f46.chunk.js",
+    "main.js.map": "/Uni-Connect/static/js/main.c5659f46.chunk.js.map",
     "runtime-main.js": "/Uni-Connect/static/js/runtime-main.210ec0b3.js",
     "runtime-main.js.map": "/Uni-Connect/static/js/runtime-main.210ec0b3.js.map",
     "static/js/2.12978099.chunk.js": "/Uni-Connect/static/js/2.12978099.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.210ec0b3.js",
     "static/js/2.12978099.chunk.js",
     "static/css/main.3cdef3df.chunk.css",
-    "static/js/main.eb132ab5.chunk.js"
+    "static/js/main.c5659f46.chunk.js"
   ]
 }
