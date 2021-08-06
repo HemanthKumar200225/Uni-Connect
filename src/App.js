@@ -9,13 +9,19 @@ function App() {
   const [ List, setList ] = useState([]);
   
   const handleSubmit = () => {
-    const data = [name,message]
+    // const data = [name,message]
     // alert(data);
-    axios.post(`https://sheet.best/api/sheets/dd480f0f-16b9-40b1-ba7f-348b31058d71`,
+    if(name!=="John Doe" && message!=="Hello World" && heading!=="Hey I want to share my...")
     {
-      name,message,heading
+      axios.post(`https://sheet.best/api/sheets/dd480f0f-16b9-40b1-ba7f-348b31058d71`,
+      {
+        name,message,heading
+      }
+      );
     }
-    );
+    else{
+      alert("Give other than example")
+    }
     
   };
 
@@ -30,8 +36,8 @@ function App() {
 
   return (
     <div className="App">
-      <h1 className="Main" style={{color: "white", margin:"auto", marginLeft:"43.5%", marginTop:"50px" }}>Uni Connect</h1>
-      <span className="desc" style={{color: "white"}}>This is a open blog/confession posts site. Here you can post anything and it will be visible to anyone and also you donot need any account creation for this.</span>
+      <h1 id="top" className="Main" style={{color: "white", margin:"auto", marginLeft:"43.5%", marginTop:"50px" }}>Uni Connect</h1>
+      <span className="desc" style={{color: "white"}}>Uni Connect is an open blog/confession posts site. Here you can post anything and it will be visible to anyone and also you donot need any account creation for this.</span>
       <div className="Create_Post">
         <h1>Create Post</h1>
         <form>
@@ -44,7 +50,8 @@ function App() {
           <button type="submit" onClick={handleSubmit}>Submit</button>
         </form>
       </div>
-      <h1 style={{color:"white", position: "relative", top: "140px", left: "47%",width: "fit-content"}}>Posts</h1>
+      <span style={{color:"white",position:"relative",left:"42%",top:"100px"}}><a href="#Posts">Scroll Down to see the posts</a></span>
+      <h1 id="Posts" style={{color:"white", position: "relative", top: "140px", left: "47%",width: "fit-content"}}>Posts</h1>
       <div className="listitems" style={{color: "white"}}>
         {List.map(post => (
           <div className="PostListItem">
@@ -54,6 +61,7 @@ function App() {
           </div>
         ))}
       </div>
+      <a style={{position:"fixed",bottom: "15%", right: "5%", color: "white" }} href="#top">Up</a>
       <div style={{ position: "fixed", bottom: "2%", right: "2%", color: "white" }} className="signature">By <i>Hemanth Kumar</i></div>
     </div>
   );

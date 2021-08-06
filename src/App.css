@@ -1,3 +1,7 @@
+* {
+  scroll-behavior: smooth;
+}
+
 .Create_Post {
   position: relative;
   left: 27%;
@@ -49,6 +53,7 @@ button {
   top: 140px;
   display: flex;
   flex-wrap: wrap;
+  padding-bottom: 100px;
 }
 .PostListItem {
   margin: 5px;
@@ -74,4 +79,12 @@ button {
   background: linear-gradient(to right, #fff200, #ff0000);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: orange;
 }
