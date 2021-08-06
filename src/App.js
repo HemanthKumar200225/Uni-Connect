@@ -47,7 +47,7 @@ function App() {
           <input type="text" id="Heading" name="Heading" placeholder={heading} onChange={e => setHeading(e.target.value)} required/><br />
           <label htmlFor="Message">Message</label><br />
           <textarea style={{width: "80%",height:"150px"}} id="Message" name="Message" placeholder={message} onChange={e => setMessage(e.target.value)} required/><br />
-          <button type="submit" onClick={handleSubmit}>Submit</button>
+          <button type="submit" onClick={handleSubmit}>Submit </button>
         </form>
       </div>
       <span style={{color:"white",position:"relative",left:"42%",top:"100px"}}><a href="#Posts">Scroll Down to see the posts</a></span>
