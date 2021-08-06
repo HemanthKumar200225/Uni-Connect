@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/google-form-api/static/css/main.3cdef3df.chunk.css",
-    "main.js": "/google-form-api/static/js/main.c9683266.chunk.js",
-    "main.js.map": "/google-form-api/static/js/main.c9683266.chunk.js.map",
-    "runtime-main.js": "/google-form-api/static/js/runtime-main.351e1368.js",
-    "runtime-main.js.map": "/google-form-api/static/js/runtime-main.351e1368.js.map",
-    "static/js/2.12978099.chunk.js": "/google-form-api/static/js/2.12978099.chunk.js",
-    "static/js/2.12978099.chunk.js.map": "/google-form-api/static/js/2.12978099.chunk.js.map",
-    "static/js/3.8671ad56.chunk.js": "/google-form-api/static/js/3.8671ad56.chunk.js",
-    "static/js/3.8671ad56.chunk.js.map": "/google-form-api/static/js/3.8671ad56.chunk.js.map",
-    "index.html": "/google-form-api/index.html",
-    "static/css/main.3cdef3df.chunk.css.map": "/google-form-api/static/css/main.3cdef3df.chunk.css.map",
-    "static/js/2.12978099.chunk.js.LICENSE.txt": "/google-form-api/static/js/2.12978099.chunk.js.LICENSE.txt"
+    "main.css": "/Uni-Connect/static/css/main.3cdef3df.chunk.css",
+    "main.js": "/Uni-Connect/static/js/main.eb132ab5.chunk.js",
+    "main.js.map": "/Uni-Connect/static/js/main.eb132ab5.chunk.js.map",
+    "runtime-main.js": "/Uni-Connect/static/js/runtime-main.210ec0b3.js",
+    "runtime-main.js.map": "/Uni-Connect/static/js/runtime-main.210ec0b3.js.map",
+    "static/js/2.12978099.chunk.js": "/Uni-Connect/static/js/2.12978099.chunk.js",
+    "static/js/2.12978099.chunk.js.map": "/Uni-Connect/static/js/2.12978099.chunk.js.map",
+    "static/js/3.8671ad56.chunk.js": "/Uni-Connect/static/js/3.8671ad56.chunk.js",
+    "static/js/3.8671ad56.chunk.js.map": "/Uni-Connect/static/js/3.8671ad56.chunk.js.map",
+    "index.html": "/Uni-Connect/index.html",
+    "static/css/main.3cdef3df.chunk.css.map": "/Uni-Connect/static/css/main.3cdef3df.chunk.css.map",
+    "static/js/2.12978099.chunk.js.LICENSE.txt": "/Uni-Connect/static/js/2.12978099.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.351e1368.js",
+    "static/js/runtime-main.210ec0b3.js",
     "static/js/2.12978099.chunk.js",
     "static/css/main.3cdef3df.chunk.css",
-    "static/js/main.c9683266.chunk.js"
+    "static/js/main.eb132ab5.chunk.js"
   ]
 }
