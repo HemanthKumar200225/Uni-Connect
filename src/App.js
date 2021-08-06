@@ -13,7 +13,7 @@ function App() {
     // alert(data);
     if(name!=="John Doe" && message!=="Hello World" && heading!=="Hey I want to share my...")
     {
-      axios.post(`https://sheet.best/api/sheets/dd480f0f-16b9-40b1-ba7f-348b31058d71`,
+      axios.post(`https://sheet.best/api/sheets/f976b48e-d9aa-4abe-8bb6-4bb53d7273d5`,
       {
         name,message,heading
       }
@@ -26,12 +26,12 @@ function App() {
   };
 
   useEffect(() => {
-    axios.get(`https://sheet.best/api/sheets/dd480f0f-16b9-40b1-ba7f-348b31058d71`)
+    axios.get(`https://sheet.best/api/sheets/f976b48e-d9aa-4abe-8bb6-4bb53d7273d5`)
     .then((incomingData) => {
       setList(incomingData.data)
       // console.log(List);
     })
-  }, [List]);
+  }, []);
 
 
   return (
