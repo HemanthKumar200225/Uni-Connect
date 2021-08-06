@@ -52,7 +52,7 @@ function App() {
       </div>
       <span style={{color:"white",position:"relative",left:"42%",top:"100px"}}><a href="#Posts">Scroll Down to see the posts</a></span>
       <h1 id="Posts" style={{color:"white", position: "relative", top: "140px", left: "47%",width: "fit-content"}}>Posts</h1>
-      <div className="listitems" style={{color: "white"}}>
+      <div className="listitems"  style={{color: "white"}}>
         {List.map(post => (
           <div className="PostListItem">
             <h2>{post.heading}</h2>
