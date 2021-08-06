@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.Create_Post {
+  position: relative;
+  left: 27%;
+  top: 80px;
+  width: 40%;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  text-align: center;
+  padding: 30px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #282c34;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+label {
+  margin: 5px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input,
+textarea {
+  margin: 5px;
+  width: max-content;
+  height: 20px;
+  transition: 0.2s;
+}
+input,
+textarea:focus {
+  border: none;
+  height: 20px;
+  outline: none;
+  transform: scale(1.05);
+}
+button {
+  width: 100px;
+  margin-top: 5px;
+  padding: 10px;
+  background-color: wheat;
+  outline: none;
+  border: none;
+  color: black;
+  font-weight: bolder;
+}
+.listitems {
+  /* background-color: red; */
+  align-items: stretch;
+  justify-content: center;
+  text-align: center;
+  flex-direction: row;
+  color: white;
+  position: relative;
+  top: 140px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.PostListItem {
+  margin: 5px;
+  width: 50%;
+  /* border: 2px solid white; */
+  background-color: #282c34;
+  height: fit-content;
+  padding: 5px;
+  border-radius: 5px;
+}
+.desc {
+  position: relative;
+  left: 13%;
+  width: 60%;
+  top: 30px;
+  /* border: solid white; */
+  justify-self: center;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+}
+.Main {
+  background: linear-gradient(to right, #fff200, #ff0000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
